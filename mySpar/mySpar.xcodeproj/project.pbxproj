@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA4895FE2A8B8063007D04C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4895FD2A8B8063007D04C6 /* AppDelegate.swift */; };
+		EA4896002A8B8063007D04C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4895FF2A8B8063007D04C6 /* SceneDelegate.swift */; };
+		EA4896022A8B8063007D04C6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4896012A8B8063007D04C6 /* MainViewController.swift */; };
+		EA4896072A8B8064007D04C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4896062A8B8064007D04C6 /* Assets.xcassets */; };
+		EA48960A2A8B8064007D04C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4896082A8B8064007D04C6 /* LaunchScreen.storyboard */; };
+		EA4896122A8B82D3007D04C6 /* StoriesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4896112A8B82D3007D04C6 /* StoriesCollectionView.swift */; };
+		EA4896142A8D1B94007D04C6 /* CircleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4896132A8D1B94007D04C6 /* CircleCollectionViewCell.swift */; };
+		EA4896162A8D4B24007D04C6 /* StoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4896152A8D4B24007D04C6 /* StoriesModel.swift */; };
+		EA4896182A8D65BB007D04C6 /* PromotionsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4896172A8D65BB007D04C6 /* PromotionsCollectionView.swift */; };
+		EA48961A2A8D71C8007D04C6 /* PromotionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4896192A8D71C8007D04C6 /* PromotionsCollectionViewCell.swift */; };
+		EA4896202A8D96E2007D04C6 /* SnapLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48961F2A8D96E2007D04C6 /* SnapLayout.swift */; };
+		EA4896222A8D976D007D04C6 /* BonusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4896212A8D976D007D04C6 /* BonusView.swift */; };
+		EA4896242A8DA9D8007D04C6 /* PersonalPromotionsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4896232A8DA9D8007D04C6 /* PersonalPromotionsCollectionView.swift */; };
+		EA4896262A8DAA3B007D04C6 /* PersonalPromotionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4896252A8DAA3B007D04C6 /* PersonalPromotionsCollectionViewCell.swift */; };
+		EA4896282A8DAC6B007D04C6 /* PersonalPromotionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4896272A8DAC6B007D04C6 /* PersonalPromotionsModel.swift */; };
+		EA48962B2A8DAFD0007D04C6 /* PersonalSnapLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48962A2A8DAFD0007D04C6 /* PersonalSnapLayout.swift */; };
+		EA48962D2A8E05EB007D04C6 /* ProductCardSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48962C2A8E05EB007D04C6 /* ProductCardSectionHeader.swift */; };
+		EA48962F2A8E091F007D04C6 /* ProductCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48962E2A8E091F007D04C6 /* ProductCardModel.swift */; };
+		EA4896312A8E09EA007D04C6 /* ProductCardCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4896302A8E09EA007D04C6 /* ProductCardCollectionView.swift */; };
+		EA4896342A8E0A88007D04C6 /* ProductCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4896332A8E0A88007D04C6 /* ProductCardCollectionViewCell.swift */; };
+		EA4896362A8E41FB007D04C6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4896352A8E41FB007D04C6 /* SecondViewController.swift */; };
+		EA4896382A8E420E007D04C6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4896372A8E420E007D04C6 /* ThirdViewController.swift */; };
+		EA48963A2A8E4218007D04C6 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4896392A8E4218007D04C6 /* FourthViewController.swift */; };
+		EA48963C2A8E72FC007D04C6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48963B2A8E72FC007D04C6 /* HeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA4895FA2A8B8063007D04C6 /* mySpar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mySpar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4895FD2A8B8063007D04C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA4895FF2A8B8063007D04C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA4896012A8B8063007D04C6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EA4896062A8B8064007D04C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA4896092A8B8064007D04C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA48960B2A8B8064007D04C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4896112A8B82D3007D04C6 /* StoriesCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesCollectionView.swift; sourceTree = "<group>"; };
+		EA4896132A8D1B94007D04C6 /* CircleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCollectionViewCell.swift; sourceTree = "<group>"; };
+		EA4896152A8D4B24007D04C6 /* StoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesModel.swift; sourceTree = "<group>"; };
+		EA4896172A8D65BB007D04C6 /* PromotionsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionsCollectionView.swift; sourceTree = "<group>"; };
+		EA4896192A8D71C8007D04C6 /* PromotionsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionsCollectionViewCell.swift; sourceTree = "<group>"; };
+		EA48961F2A8D96E2007D04C6 /* SnapLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapLayout.swift; sourceTree = "<group>"; };
+		EA4896212A8D976D007D04C6 /* BonusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusView.swift; sourceTree = "<group>"; };
+		EA4896232A8DA9D8007D04C6 /* PersonalPromotionsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalPromotionsCollectionView.swift; sourceTree = "<group>"; };
+		EA4896252A8DAA3B007D04C6 /* PersonalPromotionsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalPromotionsCollectionViewCell.swift; sourceTree = "<group>"; };
+		EA4896272A8DAC6B007D04C6 /* PersonalPromotionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalPromotionsModel.swift; sourceTree = "<group>"; };
+		EA48962A2A8DAFD0007D04C6 /* PersonalSnapLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalSnapLayout.swift; sourceTree = "<group>"; };
+		EA48962C2A8E05EB007D04C6 /* ProductCardSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardSectionHeader.swift; sourceTree = "<group>"; };
+		EA48962E2A8E091F007D04C6 /* ProductCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardModel.swift; sourceTree = "<group>"; };
+		EA4896302A8E09EA007D04C6 /* ProductCardCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardCollectionView.swift; sourceTree = "<group>"; };
+		EA4896332A8E0A88007D04C6 /* ProductCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		EA4896352A8E41FB007D04C6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EA4896372A8E420E007D04C6 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		EA4896392A8E4218007D04C6 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		EA48963B2A8E72FC007D04C6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA4895F72A8B8063007D04C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA4895F12A8B8063007D04C6 = {
+			isa = PBXGroup;
+			children = (
+				EA4895FC2A8B8063007D04C6 /* mySpar */,
+				EA4895FB2A8B8063007D04C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA4895FB2A8B8063007D04C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA4895FA2A8B8063007D04C6 /* mySpar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA4895FC2A8B8063007D04C6 /* mySpar */ = {
+			isa = PBXGroup;
+			children = (
+				EA4895FD2A8B8063007D04C6 /* AppDelegate.swift */,
+				EA4895FF2A8B8063007D04C6 /* SceneDelegate.swift */,
+				EA4896402A8E95B0007D04C6 /* ViewControllers */,
+				EA48961D2A8D77A1007D04C6 /* MainScreen */,
+				EA4896062A8B8064007D04C6 /* Assets.xcassets */,
+				EA4896082A8B8064007D04C6 /* LaunchScreen.storyboard */,
+				EA48960B2A8B8064007D04C6 /* Info.plist */,
+			);
+			path = mySpar;
+			sourceTree = "<group>";
+		};
+		EA48961B2A8D7708007D04C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EA4896152A8D4B24007D04C6 /* StoriesModel.swift */,
+				EA4896272A8DAC6B007D04C6 /* PersonalPromotionsModel.swift */,
+				EA48962E2A8E091F007D04C6 /* ProductCardModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EA48961C2A8D7714007D04C6 /* StoriesCollection */ = {
+			isa = PBXGroup;
+			children = (
+				EA4896112A8B82D3007D04C6 /* StoriesCollectionView.swift */,
+				EA4896132A8D1B94007D04C6 /* CircleCollectionViewCell.swift */,
+			);
+			path = StoriesCollection;
+			sourceTree = "<group>";
+		};
+		EA48961D2A8D77A1007D04C6 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EA4896012A8B8063007D04C6 /* MainViewController.swift */,
+				EA4896212A8D976D007D04C6 /* BonusView.swift */,
+				EA48962C2A8E05EB007D04C6 /* ProductCardSectionHeader.swift */,
+				EA48963B2A8E72FC007D04C6 /* HeaderView.swift */,
+				EA48961E2A8D77BB007D04C6 /* PromotionsCollection */,
+				EA48961C2A8D7714007D04C6 /* StoriesCollection */,
+				EA48961B2A8D7708007D04C6 /* Models */,
+				EA4896292A8DADE2007D04C6 /* PersonalPromotionsCollection */,
+				EA4896322A8E09EF007D04C6 /* ProductCardCollection */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		EA48961E2A8D77BB007D04C6 /* PromotionsCollection */ = {
+			isa = PBXGroup;
+			children = (
+				EA4896172A8D65BB007D04C6 /* PromotionsCollectionView.swift */,
+				EA48961F2A8D96E2007D04C6 /* SnapLayout.swift */,
+				EA4896192A8D71C8007D04C6 /* PromotionsCollectionViewCell.swift */,
+			);
+			path = PromotionsCollection;
+			sourceTree = "<group>";
+		};
+		EA4896292A8DADE2007D04C6 /* PersonalPromotionsCollection */ = {
+			isa = PBXGroup;
+			children = (
+				EA4896232A8DA9D8007D04C6 /* PersonalPromotionsCollectionView.swift */,
+				EA4896252A8DAA3B007D04C6 /* PersonalPromotionsCollectionViewCell.swift */,
+				EA48962A2A8DAFD0007D04C6 /* PersonalSnapLayout.swift */,
+			);
+			path = PersonalPromotionsCollection;
+			sourceTree = "<group>";
+		};
+		EA4896322A8E09EF007D04C6 /* ProductCardCollection */ = {
+			isa = PBXGroup;
+			children = (
+				EA4896302A8E09EA007D04C6 /* ProductCardCollectionView.swift */,
+				EA4896332A8E0A88007D04C6 /* ProductCardCollectionViewCell.swift */,
+			);
+			path = ProductCardCollection;
+			sourceTree = "<group>";
+		};
+		EA4896402A8E95B0007D04C6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA4896352A8E41FB007D04C6 /* SecondViewController.swift */,
+				EA4896372A8E420E007D04C6 /* ThirdViewController.swift */,
+				EA4896392A8E4218007D04C6 /* FourthViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA4895F92A8B8063007D04C6 /* mySpar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA48960E2A8B8064007D04C6 /* Build configuration list for PBXNativeTarget "mySpar" */;
+			buildPhases = (
+				EA4895F62A8B8063007D04C6 /* Sources */,
+				EA4895F72A8B8063007D04C6 /* Frameworks */,
+				EA4895F82A8B8063007D04C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mySpar;
+			productName = mySpar;
+			productReference = EA4895FA2A8B8063007D04C6 /* mySpar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA4895F22A8B8063007D04C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EA4895F92A8B8063007D04C6 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = EA4895F52A8B8063007D04C6 /* Build configuration list for PBXProject "mySpar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA4895F12A8B8063007D04C6;
+			productRefGroup = EA4895FB2A8B8063007D04C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA4895F92A8B8063007D04C6 /* mySpar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA4895F82A8B8063007D04C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA48960A2A8B8064007D04C6 /* LaunchScreen.storyboard in Resources */,
+				EA4896072A8B8064007D04C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA4895F62A8B8063007D04C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4896022A8B8063007D04C6 /* MainViewController.swift in Sources */,
+				EA48962D2A8E05EB007D04C6 /* ProductCardSectionHeader.swift in Sources */,
+				EA4896382A8E420E007D04C6 /* ThirdViewController.swift in Sources */,
+				EA48963A2A8E4218007D04C6 /* FourthViewController.swift in Sources */,
+				EA4896162A8D4B24007D04C6 /* StoriesModel.swift in Sources */,
+				EA4896362A8E41FB007D04C6 /* SecondViewController.swift in Sources */,
+				EA4896142A8D1B94007D04C6 /* CircleCollectionViewCell.swift in Sources */,
+				EA48963C2A8E72FC007D04C6 /* HeaderView.swift in Sources */,
+				EA48962B2A8DAFD0007D04C6 /* PersonalSnapLayout.swift in Sources */,
+				EA4895FE2A8B8063007D04C6 /* AppDelegate.swift in Sources */,
+				EA4896122A8B82D3007D04C6 /* StoriesCollectionView.swift in Sources */,
+				EA4896282A8DAC6B007D04C6 /* PersonalPromotionsModel.swift in Sources */,
+				EA4896242A8DA9D8007D04C6 /* PersonalPromotionsCollectionView.swift in Sources */,
+				EA4896262A8DAA3B007D04C6 /* PersonalPromotionsCollectionViewCell.swift in Sources */,
+				EA4896312A8E09EA007D04C6 /* ProductCardCollectionView.swift in Sources */,
+				EA4896202A8D96E2007D04C6 /* SnapLayout.swift in Sources */,
+				EA4896222A8D976D007D04C6 /* BonusView.swift in Sources */,
+				EA4896002A8B8063007D04C6 /* SceneDelegate.swift in Sources */,
+				EA4896342A8E0A88007D04C6 /* ProductCardCollectionViewCell.swift in Sources */,
+				EA48962F2A8E091F007D04C6 /* ProductCardModel.swift in Sources */,
+				EA48961A2A8D71C8007D04C6 /* PromotionsCollectionViewCell.swift in Sources */,
+				EA4896182A8D65BB007D04C6 /* PromotionsCollectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA4896082A8B8064007D04C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA4896092A8B8064007D04C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA48960C2A8B8064007D04C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA48960D2A8B8064007D04C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA48960F2A8B8064007D04C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RAV4CT826;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mySpar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AzatSultanov.mySpar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA4896102A8B8064007D04C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RAV4CT826;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mySpar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AzatSultanov.mySpar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA4895F52A8B8063007D04C6 /* Build configuration list for PBXProject "mySpar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA48960C2A8B8064007D04C6 /* Debug */,
+				EA48960D2A8B8064007D04C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA48960E2A8B8064007D04C6 /* Build configuration list for PBXNativeTarget "mySpar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA48960F2A8B8064007D04C6 /* Debug */,
+				EA4896102A8B8064007D04C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA4895F22A8B8063007D04C6 /* Project object */;
+}
