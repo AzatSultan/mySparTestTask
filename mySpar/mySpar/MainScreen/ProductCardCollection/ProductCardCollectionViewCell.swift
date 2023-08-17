@@ -143,7 +143,6 @@ class ProductCardCollectionViewCell: UICollectionViewCell {
   override func prepareForReuse() {
     super.prepareForReuse()
     productImage.image = nil
-    basketImage.image = nil
     priceLabel.text = nil
     salePriceLabel.isHidden = true
     salePriceLabel.text = nil
